@@ -26,7 +26,7 @@ $("#back_to_top").click(function() {
 });
 
 $(".service_container:nth-child(1)").css("display", "flex");
-$(".swiper-container-wrapper").on('mousewheel mouseup mouseleave touchmove', function() {
+$(".swiper-container-wrapper").on('mousewheel mouseup mouseleave touchend', function() {
     let toggle_number = parseInt($(this).find(".swiper-slide-active").attr("data-index-toggle"));
     $(".service_container").hide();
     $("#service_container_wrapper .service_container:nth-child("+toggle_number+")").css("display", "flex");
@@ -40,7 +40,7 @@ $(".service_wrapper").click(function () {
 
 // directory
 $(".directory_container:nth-child(1)").css("display", "flex");
-$(".swiper-container-wrapper").on('mousewheel mouseup mouseleave touchmove', function() {
+$(".swiper-container-wrapper").on('mousewheel mouseup mouseleave touchend', function() {
     let toggle_number = parseInt($(this).find(".swiper-slide-active").attr("data-index-toggle"));
     $(".directory_container").hide();
     $("#directory_wrapper .directory_container:nth-child("+toggle_number+")").css("display", "flex");
