@@ -244,7 +244,7 @@ div.dividing_line {
 }
 
 .swiper-container-wrapper {
-  max-width: 900px;
+  width: 900px;
   height: 200px;
   margin: 30px auto 120px auto;
 }
