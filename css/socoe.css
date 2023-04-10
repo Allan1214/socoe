@@ -7,17 +7,17 @@
 
 @font-face {
   font-family: 'Futura Bold font';
-  src: url('fonts/Futura Bold font.ttf');
+  src: url('../fonts/Futura Bold font.ttf');
 }
 
 @font-face {
   font-family: 'Futura Light Italic font';
-  src: url('fonts/Futura Light Italic font.ttf');
+  src: url('../fonts/Futura Light Italic font.ttf');
 }
 
 @font-face {
   font-family: 'Futura Book font';
-  src: url('fonts/Futura Book font.ttf');
+  src: url('../fonts/Futura Book font.ttf');
 }
 
 #loading_icon_container {
@@ -89,7 +89,7 @@ body,
 }
 
 #banner {
-  background: url(./img/background/background-1.png);
+  background: url(../img/background/background-1.png);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -108,7 +108,7 @@ body,
 #logo {
   height: 180px;
   width: 180px;
-  background: transparent url(/img/icon/logo.png) no-repeat;
+  background: transparent url(../img/icon/logo.png) no-repeat;
   background-size: cover;
 }
 
