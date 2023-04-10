@@ -108,7 +108,7 @@ body,
 #logo {
   height: 180px;
   width: 180px;
-  background: transparent url(img/icon/logo.png) no-repeat;
+  background: transparent url(/img/icon/logo.png) no-repeat;
   background-size: cover;
 }
 
@@ -217,7 +217,7 @@ div.dividing_line {
 }
 
 #section_1 {
-  background: url(img/background/background-2.png);
+  background: url(../img/background/background-2.png);
   background-size: cover;
   display: flex;
   flex-direction: column;
